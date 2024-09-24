@@ -1,0 +1,37 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color:#19a1ad;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+}
+
+.top-circle {
+  position: absolute;
+  top: -550px;
+  left: -328px
+}
+
+.main-container {
+    height: 100vh;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    position: relative;
+    overflow: hidden;
+}
+
+
+.bottom-circle {
+  position: absolute;
+  bottom: -685px;
+  right: -270px;
+}
+
